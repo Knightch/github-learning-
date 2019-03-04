@@ -43,6 +43,7 @@ border: 2px #EA5267;
   width: 80px;
   height: 300px;
   margin-right: 60px;
+  margin-left: 5%;
   float: left;
 }
 .progress-bar-vertical .progress-bar {
@@ -52,8 +53,8 @@ border: 2px #EA5267;
 }
 #box {
 background-color:#EA5267;
-width:800px;
-height:300px;
+width:80%;
+height:100%;
 }
 #show4 {
 font-family: "Futura, "Trebuchet MS", Arial, sans-serif";
@@ -61,7 +62,8 @@ font-family: "Futura, "Trebuchet MS", Arial, sans-serif";
  font-size: 200pt;
  font-weight:medium;
  margin-bottom:-50px;
- margin-top:-50px
+ margin-top:-50px;
+ margin-left:10%
 }
 .experience {
 padding:30px 30px;
@@ -90,13 +92,12 @@ color: #FFFFFF;
  padding:30px 30px;
 } 
 #box2 {
- position: absolute;
-  
+ position: absolute; 
   top: 650px;
   z-index: -1;
  background-color:#08096C;
  width:100%;
- height:1800px;
+ 
  padding:40px;
 }
 sm { font-family: "Futura, "Trebuchet MS", Arial, sans-serif";
@@ -131,6 +132,19 @@ background-color:white;
 height:400px;
 width:300px;
 padding:50px;
+}
+
+@media screen and (max-width: 992px) {
+  #box2 {
+    top:260%;
+    height:2580px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #box2 {
+    top:150%;
+  }
 }
 	</style>
 </head>
